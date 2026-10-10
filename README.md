@@ -1,0 +1,1 @@
+# hick-s-law
