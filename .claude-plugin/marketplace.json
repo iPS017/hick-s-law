@@ -1,0 +1,14 @@
+{
+  "name": "hick-s-law",
+  "owner": {
+    "name": "iPS017"
+  },
+  "description": "Conversion and decision-load skills for Claude.",
+  "plugins": [
+    {
+      "name": "hicks-law-conversion",
+      "source": "./",
+      "description": "Audit and design SaaS and website journeys to reduce decision load using Hick's law, without dark patterns."
+    }
+  ]
+}

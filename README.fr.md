@@ -24,7 +24,22 @@ Le skill part de là. Il réduit les décisions, pas l'information. Il note chaq
 
 ## Installation
 
-**Claude Code**
+**Claude Code — installation comme plugin**
+
+Exécute ces commandes dans Claude Code :
+
+```text
+/plugin marketplace add iPS017/hick-s-law
+/plugin install hicks-law-conversion@hick-s-law
+```
+
+Redémarre ta session Claude après l’installation. Tu peux lancer le skill avec
+`/hicks-law-conversion:hicks-law-conversion` ou décrire l’audit souhaité.
+
+Si le gestionnaire de plugins demande une marketplace GitHub, indique `iPS017/hick-s-law`.
+Le dépôt contient `.claude-plugin/marketplace.json` et le manifeste du plugin.
+
+**Claude Code — installation manuelle du skill (alternative)**
 
 ```bash
 git clone https://github.com/iPS017/hick-s-law.git

@@ -1,0 +1,13 @@
+{
+  "name": "hicks-law-conversion",
+  "version": "1.0.0",
+  "description": "Audit and design SaaS and website journeys to reduce decision load using Hick's law, without dark patterns.",
+  "author": {
+    "name": "iPS017"
+  },
+  "repository": "https://github.com/iPS017/hick-s-law",
+  "license": "MIT",
+  "skills": [
+    "./hicks-law-conversion"
+  ]
+}

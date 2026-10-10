@@ -24,7 +24,22 @@ This skill builds on that. It reduces decisions, not information. It grades ever
 
 ## Install
 
-**Claude Code**
+**Claude Code — plugin installation**
+
+Run these commands inside Claude Code:
+
+```text
+/plugin marketplace add iPS017/hick-s-law
+/plugin install hicks-law-conversion@hick-s-law
+```
+
+Restart your Claude session after installation. You can invoke the skill with
+`/hicks-law-conversion:hicks-law-conversion` or describe the audit you need.
+
+For a plugin manager that asks for a GitHub marketplace, use `iPS017/hick-s-law`.
+The repository includes `.claude-plugin/marketplace.json` and the plugin manifest.
+
+**Claude Code — manual skill installation (alternative)**
 
 ```bash
 git clone https://github.com/iPS017/hick-s-law.git
